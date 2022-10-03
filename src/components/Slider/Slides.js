@@ -6,7 +6,7 @@ const slidesInfo = [
   {
     src: Movies,
     alt: "p1",
-    desc: "p1",
+    desc: "movie search engine",
   },
   {
     src: "https://cdn.pixabay.com/photo/2017/10/31/19/05/web-design-2906159_960_720.jpg",
