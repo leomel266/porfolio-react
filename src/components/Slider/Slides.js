@@ -1,9 +1,10 @@
 import React from "react";
+import Movies from "./media/Movies.png";
 import "./Slider.css";
 
 const slidesInfo = [
   {
-    src: "https://cdn.pixabay.com/photo/2016/12/19/08/39/mobile-phone-1917737_960_720.jpg",
+    src: Movies,
     alt: "p1",
     desc: "p1",
   },
