@@ -28,7 +28,11 @@ const slides = slidesInfo.map((slide) => (
     <img src={slide.src} alt={slide.alt} />
     <div className='slide-desc'>
       <span>{slide.desc}</span>
-      <a href='https://cdn.pixabay.com/photo/2017/10/31/19/05/web-design-2906159_960_720.jpg'>
+      <a
+        style={{ textDecoration: "none" }}
+        target='_blank'
+        rel='noreferrer'
+        href='https://cdn.pixabay.com/photo/2017/10/31/19/05/web-design-2906159_960_720.jpg'>
         Go to see it
       </a>
     </div>
